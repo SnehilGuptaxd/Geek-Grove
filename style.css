@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+}
+.navbar-brand{
+    font-size:35px;
+    font-family: 'Roboto', sans-serif;
+}
+.navbar{
+    width:100%;
+    background-color:#9F70FD;
+    -bs-navbar-brand-margin-end: 3rem;
+    opacity: 0.9;
+}
+#navbarSupportedContent{
+    padding-left:40px;
+    justify-content: center;
+    font-size: 24px;
+}
+.d-flex{
+    padding-right: 15px;
+}
+.nav-item a{
+    margin: 4px;
+}
+#slider{
+    height: 90vh;
+    /* padding-left: 20px;
+    padding-right: 20px; */
+    background-size: cover;
+}
+#carouselExampleCaptions h5{
+    font-size:50px;
+    color: blueviolet;
+}
+#carouselExampleCaptions p{
+    font-size: 30px;
+}
+
+   /* banner */
+#banner{
+    background-color: #F3B95F;
+    /* width: ; */
+    height:450px;
+}
+#bannertext{
+    text-align: center;
+}
+#bannertext h2{
+    font-size: 70px;
+    padding-top:60px;
+    text-transform: uppercase;
+}
+#bannertext p{
+    font-size:25px;
+    padding-top: 8px;
+}
+@media only screen and (max-width:500px){
+    #banner{
+        margin-top: 100px;
+        margin-bottom: 20px;
+        height:900px;
+       
+    }
+    #bannertext{
+        height: 500px;
+    }
+    #bannertext h2{
+        padding-top: 70px;
+        font-size: 40px;
+    }
+    #bannertext p{
+        margin: 5px 25px;
+}
+}
+
+#btn1{
+    margin-top: 15px;
+    font-size: 30px;
+    margin-right: 10px;
+}
+#btn2{
+    margin-top: 15px;
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+#bnimg{
+   margin-top:50px;
+   border-bottom-left-radius: 10px;
+   margin-bottom: 10px;
+}
+@media only screen and (max-width:500px){
+    #bnimg{
+        padding-top: 40px;
+        margin-top: -40px;
+        width: 400px;
+        margin-bottom: 0px;
+    }
+}
+ 
+/* content */
+#content{
+    height: 500px;
+}
+#contentimg{
+    padding-top: 40px;
+}
+#contenttext{
+    margin-top: 40px;
+}
+#contenttext h2{
+    font-size:40px;
+    color: #FE7A36;
+    text-align: center;
+    padding-top:10px;
+}
+#contenttext h3{
+    font-size:40px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+#contenttext h4{
+    font-size:40px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top:12px;
+}
+@media only screen and (max-width:500px){
+    #contenttext{
+        height: 600px;
+    }
+    #content{
+        height: 700px;
+    }
+}
+#servicetext h4{
+    font-size:30px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top:170px;
+}
+#serviceimg{
+    margin-top:35px;
+    border-bottom-left-radius: 20px;
+    margin-bottom: 35px;
+ }
+ #btn3{
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-left:180px;
+    background-color: rebeccapurple;
+    text-align: center;
+    margin-bottom: 10px;
+}
+@media only screen and (max-width:500px){
+    .row {
+        /* margin-top: 50px; */
+        height: 590px;
+    }
+    #serviceimg{
+        width:400px;
+       margin-top: 0px;
+       margin-bottom: 0px;
+    }
+    #servicetext h4{
+        padding-top: 40px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+    }
+}
+@media only screen and (max-width:500px) 
+{
+    #btn3{
+        margin-left: 120px;
+        margin-bottom:0px;
+    }
+    #contentimg{
+        width: 400px;
+        padding-top: 30px;
+    }
+    
+    
+}
+#blog{
+    background-color: #F3B95F;
+}
+#parblog{
+    font-size:30px;
+    text-align: center;
+    margin: 10px 10px;
+    padding: 10px 10px;
+}
+#rcblog{
+    font-size:60px;
+    color: azure;
+}
+#mainblog{
+    border-radius:25px;
+
+}
+#service{
+    box-shadow: 4px 4px 40px black;
+}
+
+a{
+    text-decoration: none;
+    font-size:20px;
+    line-height:40px;
+}
+@media only screen and (max-width:500px){
+    #blog{
+        height: 1700px;
+    }
+    #mainblog{
+        width: 370px;
+    }
+}
+#footer{
+    background-color: bisque;
+    padding-top: 30px;
+    /* margin-top: 10px; */
+}
+#tittle{
+    text-align:center;
+    color:blueviolet;
+
+}
+#tittle h3{
+    font-size: 40px;
+}
+#tittle p{
+    font-size: 30px;
+}
+.logo a{
+    font-size:30px;
+}
+
+@media only screen and (max-width:500px){
+    #footer{
+        height: 700px;
+    }
+   #about{
+    padding-left: 30px;
+   }
+   #serv{
+    padding-left: 30px;
+   }
+}
+ /* site responsive media query code */
+@media only screen and (max-width:500;){
+   /* contentimg */
+   
+   .row {
+    height: 800px;
+    }
+    #btn3{
+        padding-left: 10px;
+    }
+    
+}
